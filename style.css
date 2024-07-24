@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding:0 14px;
+}
+.brand img{
+    width: 48px;
+    padding:0 8px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color:white;
+    font-family: 'Varela-Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin:25px auto;
+    border-radius: 13px;
+    padding:35px;
+    background-image: url(dance.jpg);
+    
+    background-size: 1300px;
+    
+    
+}
+.bottom{
+    position:sticky;
+    height: 110px;
+    background-color: black;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    margin:12px 0;
+}
+#myprogressBar{
+    width:70vw;
+    text-align: center;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor:pointer;
+}
+.songItem{
+    height:40px ;
+    
+    display:flex;
+    background-color: white;
+    color:black;
+    
+    margin:12 0;
+    align-items:center;
+    justify-content: space-between;
+     border-radius: 35px;
+     text-align: center;
+}
+.songItem iMG{
+    width: 50px;;
+    margin:0 24px ;
+    border-radius:34px;
+}
+.songItemcontainer{
+margin-top:74px;
+}
+.timestamp{
+    margin:0 23px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left:14vw;
+    font-family: 'Varela-Round', sans-serif;
+}
+.songInfo img{
+    opacity: 1;
+    transition: opacity 1s ease-in;
+} this code agar code css and add this css
